@@ -81,7 +81,7 @@
     </div>
     <script>
       let store = UseShoppingCartCore.createShoppingCartStore({
-        stripe: process.env.STRIPE_API_PUBLIC,
+        stripe: env.STRIPE_API_PUBLIC,
         mode: "client-only",
         successUrl: "https://twitter.com/dayhaysoos",
         cancelUrl: "https://twitter.com/dayhaysoos",
