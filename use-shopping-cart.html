@@ -81,7 +81,6 @@
       <button id="checkout">Check Out</button>
     </div>
     <script>
-      console.log(process.env.STRIPE_API_KEY);
       let store = UseShoppingCartCore.createShoppingCartStore({
         stripe: process.env.STRIPE_API_PUBLIC,
         mode: "client-only",
